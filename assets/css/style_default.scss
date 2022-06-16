@@ -1,0 +1,49 @@
+#myCarousel {
+  .item{
+    position: relative;
+    .content-slider{
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      transform: translate(-50%,-25%);
+      .summary_slider{
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      .carousel-caption{
+        background: #fff;
+        color: #034EA2;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+
+    .carousel-inner {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 1s ease;
+      -webkit-transition: opacity 1s ease;
+      &.slick-initialized {
+        visibility: visible;
+        opacity: 1;
+      }
+        .slick-dots {
+            bottom: 20px;
+            li{
+            	background: url(../images/icon-slide_03.png) no-repeat;
+            	button{
+            		display: none;
+            	}
+            }
+            .slick-active{
+            	background: url(../images/icon-slide_01.png) no-repeat;
+            }
+        }
+    }
+}
