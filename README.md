@@ -1,6 +1,7 @@
 # slidershow
 Block slider for code base fs
 **
+``
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `fs_slideshow_categories`;
@@ -40,4 +41,5 @@ CREATE TABLE `fs_slideshow`  (
 ) ENGINE = MyISAM AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
+``
 **
