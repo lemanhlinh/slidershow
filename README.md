@@ -1,7 +1,7 @@
 # slidershow
 Block slider for code base fs
 **
-```
+```mysql
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `fs_slideshow_categories`;
