@@ -43,4 +43,5 @@ CREATE TABLE `fs_slideshow`  (
 
 SET FOREIGN_KEY_CHECKS = 1;
 ```
-**
+Visit modules slider in cms<br>
+https://github.com/lemanhlinh/slidershow-ad
